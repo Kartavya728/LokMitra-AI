@@ -4,16 +4,10 @@ import { Plus, DatabaseIcon, GripVertical, Edit2, Trash2, Save, X } from 'lucide
 import { DndProvider, useDrag, useDrop } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
 import Papa from 'papaparse';
+import { useCallingList, CallEntry } from '../../contexts/CallingListContext';
 
 interface CallingListPageProps {
   accentColor: string;
-}
-
-interface CallEntry {
-  id: string;
-  name: string;
-  phone: string;
-  description: string;
 }
 
 const ItemType = 'CALL_ENTRY';
@@ -40,7 +34,7 @@ function CallEntryRow({
   accentColor: string;
 }) {
   const [isEditingDesc, setIsEditingDesc] = useState(false);
-  const [tempDesc, setTempDesc] = useState(entry.description);
+  const [tempDesc, setTempDesc] = useState(entry.description || '');
 
   const [{ isDragging }, drag, preview] = useDrag({
     type: ItemType,
@@ -66,7 +60,7 @@ function CallEntryRow({
   };
 
   const handleCancelDesc = () => {
-    setTempDesc(entry.description);
+    setTempDesc(entry.description || '');
     setIsEditingDesc(false);
   };
 
@@ -124,7 +118,7 @@ function CallEntryRow({
                 </p>
                 <button
                   onClick={() => {
-                    setTempDesc(entry.description);
+                    setTempDesc(entry.description || '');
                     setIsEditingDesc(true);
                   }}
                   className="p-2 text-gray-500 hover:text-gray-700 rounded-lg hover:bg-gray-100"
@@ -150,14 +144,8 @@ function CallEntryRow({
 }
 
 function CallingListContent({ accentColor }: CallingListPageProps) {
-  const [entries, setEntries] = useState<CallEntry[]>([
-    { id: '1', name: 'Rajesh Kumar', phone: '+91 98765 43210', description: 'Inquiry about water supply' },
-    { id: '2', name: 'Priya Sharma', phone: '+91 98765 43211', description: 'Road maintenance complaint' },
-    { id: '3', name: 'Amit Patel', phone: '+91 98765 43212', description: 'License application status' },
-    { id: '4', name: 'Sneha Gupta', phone: '+91 98765 43213', description: 'Tax payment query' },
-    { id: '5', name: 'Vikram Singh', phone: '+91 98765 43214', description: '' },
-  ]);
-
+  const { entries, addEntry, addMultipleEntries, updateEntry, deleteEntry, reorderEntries } = useCallingList();
+  
   const [newName, setNewName] = useState('');
   const [newPhone, setNewPhone] = useState('');
   const [newDesc, setNewDesc] = useState('');
@@ -169,18 +157,17 @@ function CallingListContent({ accentColor }: CallingListPageProps) {
     const newEntries = [...entries];
     newEntries.splice(dragIndex, 1);
     newEntries.splice(hoverIndex, 0, dragEntry);
-    setEntries(newEntries);
+    reorderEntries(newEntries);
   };
 
   const handleAddEntry = () => {
     if (newName.trim() && newPhone.trim()) {
-      const newEntry: CallEntry = {
-        id: Date.now().toString(),
+      addEntry({
         name: newName.trim(),
         phone: newPhone.trim(),
-        description: newDesc.trim()
-      };
-      setEntries([newEntry, ...entries]);
+        description: newDesc.trim(),
+        notes: newDesc.trim()
+      });
       setNewName('');
       setNewPhone('');
       setNewDesc('');
@@ -188,13 +175,11 @@ function CallingListContent({ accentColor }: CallingListPageProps) {
   };
 
   const handleEdit = (id: string, field: string, value: string) => {
-    setEntries(entries.map(entry =>
-      entry.id === id ? { ...entry, [field]: value } : entry
-    ));
+    updateEntry(id, { [field]: value });
   };
 
   const handleDelete = (id: string) => {
-    setEntries(entries.filter(entry => entry.id !== id));
+    deleteEntry(id);
   };
 
   const handleCSVUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -207,7 +192,7 @@ function CallingListContent({ accentColor }: CallingListPageProps) {
       dynamicTyping: false,
       transformHeader: (header) => header.trim().toLowerCase(),
       complete: (results) => {
-        const newEntries: CallEntry[] = [];
+        const newEntries: Omit<CallEntry, 'id' | 'status'>[] = [];
         
         results.data.forEach((row: any) => {
           // Try different possible column names for name, phone, and description/enquiry
@@ -223,16 +208,16 @@ function CallingListContent({ accentColor }: CallingListPageProps) {
           // Only add if at least name and phone are present
           if (name.toString().trim() && phone.toString().trim()) {
             newEntries.push({
-              id: `${Date.now()}-${Math.random()}`,
               name: name.toString().trim(),
               phone: phone.toString().trim(),
-              description: description ? description.toString().trim() : ''
+              description: description ? description.toString().trim() : '',
+              notes: description ? description.toString().trim() : ''
             });
           }
         });
 
         if (newEntries.length > 0) {
-          setEntries([...newEntries, ...entries]);
+          addMultipleEntries(newEntries);
           alert(`Successfully added ${newEntries.length} entries from CSV`);
         } else {
           alert('No valid entries found in CSV. Please ensure your CSV has columns for name and phone number.');

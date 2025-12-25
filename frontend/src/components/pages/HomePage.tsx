@@ -1,23 +1,16 @@
 import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion } from 'motion/react';
 import { Edit2, Check, X, Plus, Phone, Upload, Database as DatabaseIcon, Settings, Info } from 'lucide-react';
 import type { UserSession } from '../../App';
 import AddNumberModal from '../modals/AddNumberModal';
 import UploadDocumentModal from '../modals/UploadDocumentModal';
 import ConnectDatabaseModal from '../modals/ConnectDatabaseModal';
+import { useCallingList } from '../../contexts/CallingListContext';
 
 interface HomePageProps {
   userSession: UserSession;
   accentColor: string;
   secondaryColor: string;
-}
-
-interface QueueEntry {
-  id: string;
-  name: string;
-  phone: string;
-  notes?: string;
-  status: 'pending' | 'calling' | 'completed';
 }
 
 interface AICapability {
@@ -28,6 +21,8 @@ interface AICapability {
 }
 
 export default function HomePage({ userSession, accentColor, secondaryColor }: HomePageProps) {
+  const { entries: callingQueue, addEntry: handleAddNumber } = useCallingList();
+  
   const [aiName, setAiName] = useState('LokMitra');
   const [isEditingName, setIsEditingName] = useState(false);
   const [tempName, setTempName] = useState(aiName);
@@ -37,12 +32,6 @@ export default function HomePage({ userSession, accentColor, secondaryColor }: H
   const [showAddNumberModal, setShowAddNumberModal] = useState(false);
   const [showUploadModal, setShowUploadModal] = useState(false);
   const [showDatabaseModal, setShowDatabaseModal] = useState(false);
-
-  const [callingQueue, setCallingQueue] = useState<QueueEntry[]>([
-    { id: '1', name: 'Rajesh Kumar', phone: '+91 98765 43210', notes: 'Regarding water supply issue', status: 'pending' },
-    { id: '2', name: 'Priya Sharma', phone: '+91 98765 43211', notes: 'Complaint about road maintenance', status: 'pending' },
-    { id: '3', name: 'Amit Patel', phone: '+91 98765 43212', status: 'pending' },
-  ]);
 
   const [capabilities, setCapabilities] = useState<AICapability[]>([
     { id: 'tickets', label: 'Create/Update Tickets', description: 'Allow AI to create or update tickets in the database', enabled: true },
@@ -75,15 +64,6 @@ export default function HomePage({ userSession, accentColor, secondaryColor }: H
   const handleCancelEscalation = () => {
     setTempEscalation(escalationNumber);
     setIsEditingEscalation(false);
-  };
-
-  const handleAddNumber = (entry: Omit<QueueEntry, 'id' | 'status'>) => {
-    const newEntry: QueueEntry = {
-      ...entry,
-      id: Date.now().toString(),
-      status: 'pending'
-    };
-    setCallingQueue([...callingQueue, newEntry]);
   };
 
   const toggleCapability = (id: string) => {
@@ -316,7 +296,7 @@ export default function HomePage({ userSession, accentColor, secondaryColor }: H
         </div>
 
         <div className="space-y-3">
-          {callingQueue.map((entry, index) => (
+          {callingQueue.slice(0, 5).map((entry, index) => (
             <motion.div
               key={entry.id}
               className={`p-3 sm:p-4 rounded-lg border-2 transition-all ${index === nextCallIndex
@@ -346,6 +326,11 @@ export default function HomePage({ userSession, accentColor, secondaryColor }: H
               </div>
             </motion.div>
           ))}
+          {callingQueue.length > 5 && (
+            <p className="text-sm text-gray-500 text-center mt-2">
+              +{callingQueue.length - 5} more in queue (view in Calling List)
+            </p>
+          )}
         </div>
       </motion.div>
 

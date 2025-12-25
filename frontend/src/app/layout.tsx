@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { CallingListProvider } from "@/contexts/CallingListContext";
 
 export const metadata: Metadata = {
   title: "LokMitra AI - Responsive AI Dashboard",
@@ -14,7 +15,9 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body>
-        {children}
+        <CallingListProvider>
+          {children}
+        </CallingListProvider>
       </body>
     </html>
   );

@@ -1,0 +1,16 @@
+Project SHIELD is an AI-driven digital forensics system designed to detect tampered government documents.
+The system focuses on documents such as Aadhaar cards, academic mark sheets, and property records.
+
+The core idea behind Project SHIELD is to use machine learning and computer vision techniques
+to identify inconsistencies in fonts, layouts, stamps, signatures, and metadata.
+
+The pipeline starts with document ingestion, followed by preprocessing steps such as
+noise removal, skew correction, and resolution normalization.
+After preprocessing, the document is passed through multiple AI models trained on genuine
+and forged samples.
+
+One of the major challenges in document forensics is dealing with low-quality scans.
+Project SHIELD addresses this by applying adaptive enhancement techniques before analysis.
+
+The system can be integrated with government portals through APIs.
+It provides a confidence score indicating the likelihood of document tampering.

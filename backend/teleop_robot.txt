@@ -1,0 +1,13 @@
+The teleoperated robotic system is designed to allow a human operator to control the robot remotely.
+It uses a differential drive mechanism with four wheels to enable precise motion control.
+
+The robot communicates with the control station using ROS.
+Commands such as forward motion, turning, and stopping are sent over a wireless network.
+The robot also publishes sensor data such as wheel encoder values and IMU readings.
+
+Multiple control modes are supported.
+These include keyboard-based WASD control, hand gesture control using a camera,
+and voice-based commands interpreted using a speech recognition module.
+
+Safety is a key consideration in teleoperation.
+The system includes an emergency stop mechanism and limits on maximum speed to prevent accidents.

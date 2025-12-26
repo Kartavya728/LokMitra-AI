@@ -160,9 +160,9 @@ class RAGIngestionPipeline:
 
 load_dotenv()  # Load environment variables from .env file
 pipeline = RAGIngestionPipeline(
-    gemini_api_key="AIzaSyBgLLaWF4CvKxxbDOdxi1UGpCjY331eYnY",
-    pinecone_api_key="pcsk_3YpsBL_QPZyiGNUHEMEQQew1YwpWBuGhbmLqcKYzn53xTZfYjEjEMK2sgQr42vipbfozjn",
-    pinecone_index_name="vapi-gemini-kb"
+    gemini_api_key=os.getenv("GEMINI_API_KEY2"),
+    pinecone_api_key=os.getenv("PINECONE_API_KEY"),
+    pinecone_index_name=os.getenv("PINECONE_INDEX")
 )
 
 # pipeline.ingest_file(r"C:\Users\Noor\Desktop\IIT Mandi\voice-agent\LokMitra-AI\backend\teleop_robot.txt")  # Example file path 

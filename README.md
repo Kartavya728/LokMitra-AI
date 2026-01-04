@@ -185,7 +185,7 @@
 ## 🏗️ Architecture
 <div align="center">
 
-<img src="architecture.png" alt="LokMitra AI Architecture" width="90%"/>
+<img src="Architecture.png" alt="LokMitra AI Architecture" width="90%"/>
 
 </div>
 

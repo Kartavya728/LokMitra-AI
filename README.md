@@ -17,14 +17,18 @@
   <img src="https://img.shields.io/badge/Gemini-2.5-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Gemini" />
 </p>
 <!-- Social Links -->
+<!-- Social Links -->
 <p align="center">
-  <a href="#demo-video">
+  <a href="DEMO_LINK">
     <img src="https://img.shields.io/badge/📹_Video_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Video Demo" />
   </a>
-  <a href="#documentation">
+  <a href="https://youtube.com/playlist?list=PLsLuXr7FW3LwKIL9K6SJDIRh2qISQKnsq&si=p_Dra1UWf91P_iyu">
+    <img src="https://img.shields.io/badge/🎞️_Extra_Features-282828?style=for-the-badge&logo=youtube&logoColor=white" alt="Extra Features Playlist" />
+  </a>
+  <a href="https://drive.google.com/file/d/1ZVUwnB5UE8Nv0b406zvQyzalklAOD9Y8/view?usp=drivesdk">
     <img src="https://img.shields.io/badge/📚_Documentation-4285F4?style=for-the-badge&logo=googledocs&logoColor=white" alt="Documentation" />
   </a>
-  <a href="#live-website">
+  <a href="https://modest-reflection-production-893c.up.railway.app/">
     <img src="https://img.shields.io/badge/🌐_Live_Website-00C7B7?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Website" />
   </a>
 </p>

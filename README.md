@@ -427,64 +427,6 @@ python manage.py loaddata initial_data.json
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 </div>
 
-## 📚 Documentation
-
-### 📖 Comprehensive Guides
-
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <a href="https://docs.lokmitra-ai.example.com">
-        <img src="https://img.icons8.com/fluency/96/000000/book.png" width="64" height="64"/>
-        <br />
-        <b>📘 Full Documentation</b>
-      </a>
-      <br />
-      <sub>Complete API reference, architecture, and guides</sub>
-    </td>
-    <td align="center" width="50%">
-      <a href="https://api-docs.lokmitra-ai.example.com">
-        <img src="https://img.icons8.com/fluency/96/000000/api.png" width="64" height="64"/>
-        <br />
-        <b>🔌 API Documentation</b>
-      </a>
-      <br />
-      <sub>RESTful API endpoints and examples</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <a href="https://wiki.lokmitra-ai.example.com">
-        <img src="https://img.icons8.com/fluency/96/000000/wikipedia.png" width="64" height="64"/>
-        <br />
-        <b>📚 Wiki</b>
-      </a>
-      <br />
-      <sub>Tutorials, FAQs, and troubleshooting</sub>
-    </td>
-    <td align="center" width="50%">
-      <a href="https://github.com/Kartavya728/LokMitra-AI/wiki">
-        <img src="https://img.icons8.com/fluency/96/000000/github.png" width="64" height="64"/>
-        <br />
-        <b>💻 Developer Guide</b>
-      </a>
-      <br />
-      <sub>Contributing guidelines and code standards</sub>
-    </td>
-  </tr>
-</table>
-
-### 🔗 Quick Links
-
-- **[User Manual](https://docs.lokmitra-ai.example.com/user-manual)** - End-user guide
-- **[Admin Guide](https://docs.lokmitra-ai.example.com/admin-guide)** - System administration
-- **[Deployment Guide](https://docs.lokmitra-ai.example.com/deployment)** - Production deployment
-- **[Troubleshooting](https://docs.lokmitra-ai.example.com/troubleshooting)** - Common issues and solutions
-
-<div align="center">
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-</div>
-
 ## 🎥 Demo Video
 
 <div align="center">

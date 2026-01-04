@@ -37,8 +37,15 @@
 
 ## 🌟 Overview
 
-**LokMitra AI** is a revolutionary AI-powered voice assistant platform designed to bridge the gap between citizens and government services. Built with cutting-edge AI technologies, LokMitra enables seamless voice interactions, providing instant access to government schemes, databases, and human experts through natural language conversations.
+**LokMitra AI** is a revolutionary AI-powered voice assistant platform designed to bridge the gap between citizens and government services.  
+It enables seamless voice interactions, providing instant access to government schemes, databases, and human experts through natural language conversations.
 
+<div align="center">
+
+<img src="ddddgif.gif" width="45%" />
+<img src="dedgif.gif" width="45%" />
+
+</div>
 
 
 <div align="center">

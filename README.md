@@ -177,47 +177,10 @@
 
 ## 🏗️ Architecture
 
-```mermaid
-graph TB
-    subgraph "Frontend Layer"
-        A[Next.js 16 Dashboard] --> B[React Components]
-        B --> C[Radix UI]
-        B --> D[TailwindCSS]
-    end
-    
-    subgraph "Backend Layer"
-        E[Django REST API] --> F[VAPI Service]
-        E --> G[Database Models]
-        E --> H[Webhook Handler]
-    end
-    
-    subgraph "AI Layer"
-        I[Gemini 2.5 Flash] --> J[Knowledge Base RAG]
-        K[GPT-4.1 Nano] --> L[Conversation Engine]
-        M[Gemini 2.0 Flash] --> N[Transcription]
-    end
-    
-    subgraph "Data Layer"
-        O[Supabase PostgreSQL] --> P[Call History]
-        O --> Q[Connected Databases]
-        O --> R[Agent Config]
-    end
-    
-    subgraph "External Services"
-        S[VAPI Platform] --> T[Voice Calls]
-        U[Google Sheets API]
-        V[Supabase Edge Functions]
-    end
-    
-    A --> E
-    E --> I
-    E --> K
-    F --> S
-    E --> O
-    E --> U
-    E --> V
-    S --> H
-```
+<div align="center">
+  <img src="https://drive.google.com/file/d/1S9Cb6jxmuc3C4p0mQ5SVunf_bL4hLJm4/view?usp=sharing" alt="System Architecture Diagram" width="90%" />
+</div>
+<br />
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">

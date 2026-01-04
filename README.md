@@ -183,15 +183,12 @@
 </div>
 
 ## 🏗️ Architecture
-
 <div align="center">
-  <img src="https://drive.google.com/file/d/1S9Cb6jxmuc3C4p0mQ5SVunf_bL4hLJm4/view?usp=sharing" alt="System Architecture Diagram" width="90%" />
-</div>
-<br />
 
-<div align="center">
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<img src="architecture.png" alt="LokMitra AI Architecture" width="90%"/>
+
 </div>
+
 
 ## 🛠️ Tech Stack
 

@@ -41,64 +41,71 @@
 
 <div align="center">
 
-### ✨ Key Highlights
-
-</div>
-
-<table align="center">
-  <tr>
-    <td align="center" width="33%">
-      <img src="https://img.icons8.com/fluency/96/000000/voice.png" width="80" height="80"/>
-      <br />
-      <b>🎙️ Voice-First Interface</b>
-      <br />
-      <sub>Natural multilingual conversations</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="https://img.icons8.com/fluency/96/000000/artificial-intelligence.png" width="80" height="80"/>
-      <br />
-      <b>🤖 AI-Powered Intelligence</b>
-      <br />
-      <sub>Gemini 2.5 & GPT-4 integration</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="https://img.icons8.com/fluency/96/000000/database.png" width="80" height="80"/>
-      <br />
-      <b>📊 Dynamic Data Access</b>
-      <br />
-      <sub>Real-time database queries</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="33%">
-      <img src="https://img.icons8.com/fluency/96/000000/phone.png" width="80" height="80"/>
-      <br />
-      <b>📞 Inbound/Outbound Calls</b>
-      <br />
-      <sub>Automated calling campaigns</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="https://img.icons8.com/fluency/96/000000/user-group-man-man.png" width="80" height="80"/>
-      <br />
-      <b>👥 Human Escalation</b>
-      <br />
-      <sub>Seamless expert transfers</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="https://img.icons8.com/fluency/96/000000/knowledge-sharing.png" width="80" height="80"/>
-      <br />
-      <b>📚 Knowledge Base</b>
-      <br />
-      <sub>Document-based RAG system</sub>
-    </td>
-  </tr>
-</table>
-
 <div align="center">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 </div>
 
 ## 🎯 Features
+
+### 🚀 Core Capabilities
+
+<details open>
+<summary><b>🎤 Voice Interaction</b></summary>
+
+- Multilingual voice conversations in Indian languages  
+- Real-time transcription with context awareness  
+- Customizable voice profiles (Indian accent support)
+
+</details>
+
+<details open>
+<summary><b>🧠 AI Agent Intelligence</b></summary>
+
+- Configurable AI agents with custom roles and behavior  
+- RAG-based knowledge retrieval from documents  
+- Multi-model AI setup for conversation and reasoning
+
+</details>
+
+<details open>
+<summary><b>📊 Data & Knowledge Access</b></summary>
+
+- Connect CSV, Excel, Google Sheets, and databases  
+- Fuzzy search for citizen records and queries  
+- AI-generated summaries and insights
+
+</details>
+
+<details open>
+<summary><b>📞 Call Handling</b></summary>
+
+- Automated inbound and outbound calling  
+- Call history, transcripts, and session tracking  
+- Webhook-based call analytics
+
+</details>
+
+<details open>
+<summary><b>👨‍💼 Human Escalation</b></summary>
+
+- Seamless transfer to human experts  
+- Smart escalation based on query complexity  
+- Expert management via dashboard
+
+</details>
+
+<details open>
+<summary><b>🎨 Admin Dashboard</b></summary>
+
+- Fast, modern Next.js dashboard  
+- Real-time monitoring and controls  
+- Responsive design with dark mode
+
+</details>
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+</div>
 
 ### 🚀 Core Capabilities
 
@@ -354,181 +361,6 @@ LokMitra-AI/
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 </div>
 
-## 🎨 Screenshots
-
-<div align="center">
-
-### 🏠 Dashboard Overview
-![Dashboard](https://via.placeholder.com/800x450/6366F1/FFFFFF?text=Dashboard+Overview)
-
-### 📊 Database Management
-![Databases](https://via.placeholder.com/800x450/10B981/FFFFFF?text=Database+Management)
-
-### 📚 Knowledge Base
-![Knowledge](https://via.placeholder.com/800x450/F59E0B/FFFFFF?text=Knowledge+Base)
-
-### 📞 Call History
-![History](https://via.placeholder.com/800x450/EF4444/FFFFFF?text=Call+History)
-
-### ⚙️ Agent Configuration
-![Config](https://via.placeholder.com/800x450/8B5CF6/FFFFFF?text=Agent+Configuration)
-
-</div>
-
-<div align="center">
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-</div>
-
-## 👨‍💻 Author
-
-<div align="center">
-  <img src="https://avatars.githubusercontent.com/u/Kartavya728?v=4" width="150" height="150" style="border-radius: 50%; border: 4px solid #6366F1;" alt="Kartavya728"/>
-  
-  <h3>Kartavya728</h3>
-  
-  <p>
-    <a href="https://github.com/Kartavya728">
-      <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-    </a>
-    <a href="https://linkedin.com/in/kartavya728">
-      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-    </a>
-    <a href="https://twitter.com/kartavya728">
-      <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
-    </a>
-    <a href="mailto:kartavya728@example.com">
-      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-    </a>
-  </p>
-</div>
-
-<div align="center">
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-</div>
-
-## 🙏 Acknowledgments
-
-<div align="center">
-
-Special thanks to the amazing technologies and services that make LokMitra AI possible:
-
-<table>
-  <tr>
-    <td align="center">
-      <img src="https://img.icons8.com/color/96/000000/google-logo.png" width="64" height="64"/>
-      <br />
-      <b>Google Gemini</b>
-      <br />
-      <sub>AI & Knowledge Base</sub>
-    </td>
-    <td align="center">
-      <img src="https://img.icons8.com/color/96/000000/voice.png" width="64" height="64"/>
-      <br />
-      <b>VAPI</b>
-      <br />
-      <sub>Voice Platform</sub>
-    </td>
-    <td align="center">
-      <img src="https://img.icons8.com/color/96/000000/supabase.png" width="64" height="64"/>
-      <br />
-      <b>Supabase</b>
-      <br />
-      <sub>Database & Auth</sub>
-    </td>
-    <td align="center">
-      <img src="https://img.icons8.com/color/96/000000/nextjs.png" width="64" height="64"/>
-      <br />
-      <b>Next.js</b>
-      <br />
-      <sub>Frontend Framework</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="https://img.icons8.com/color/96/000000/django.png" width="64" height="64"/>
-      <br />
-      <b>Django</b>
-      <br />
-      <sub>Backend Framework</sub>
-    </td>
-    <td align="center">
-      <img src="https://img.icons8.com/color/96/000000/docker.png" width="64" height="64"/>
-      <br />
-      <b>Docker</b>
-      <br />
-      <sub>Containerization</sub>
-    </td>
-    <td align="center">
-      <img src="https://img.icons8.com/color/96/000000/typescript.png" width="64" height="64"/>
-      <br />
-      <b>TypeScript</b>
-      <br />
-      <sub>Type Safety</sub>
-    </td>
-    <td align="center">
-      <img src="https://img.icons8.com/color/96/000000/tailwindcss.png" width="64" height="64"/>
-      <br />
-      <b>TailwindCSS</b>
-      <br />
-      <sub>Styling</sub>
-    </td>
-  </tr>
-</table>
-
-</div>
-
-<div align="center">
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-</div>
-
-## 📞 Support & Contact
-
-<div align="center">
-
-### 💬 Get Help
-
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <a href="https://github.com/Kartavya728/LokMitra-AI/issues">
-        <img src="https://img.icons8.com/fluency/96/000000/bug.png" width="64" height="64"/>
-        <br />
-        <b>🐛 Report Issues</b>
-      </a>
-      <br />
-      <sub>Found a bug? Let us know!</sub>
-    </td>
-    <td align="center" width="33%">
-      <a href="https://github.com/Kartavya728/LokMitra-AI/discussions">
-        <img src="https://img.icons8.com/fluency/96/000000/chat.png" width="64" height="64"/>
-        <br />
-        <b>💭 Discussions</b>
-      </a>
-      <br />
-      <sub>Join the community chat</sub>
-    </td>
-    <td align="center" width="33%">
-      <a href="mailto:support@lokmitra-ai.example.com">
-        <img src="https://img.icons8.com/fluency/96/000000/email.png" width="64" height="64"/>
-        <br />
-        <b>📧 Email Support</b>
-      </a>
-      <br />
-      <sub>support@lokmitra-ai.example.com</sub>
-    </td>
-  </tr>
-</table>
-
-### 🌟 Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=Kartavya728/LokMitra-AI&type=Date)](https://star-history.com/#Kartavya728/LokMitra-AI&Date)
-
-</div>
-
-<div align="center">
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-</div>
-
 ## 📈 Project Stats
 
 <div align="center">
@@ -548,52 +380,6 @@ Special thanks to the amazing technologies and services that make LokMitra AI po
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 </div>
 
-## 🚀 Roadmap
-
-<div align="center">
-
-### 🎯 Upcoming Features
-
-</div>
-
-- [ ] 🌍 **Multi-Language Support**: Expand to 15+ Indian languages
-- [ ] 📱 **Mobile App**: Native iOS & Android applications
-- [ ] 🤖 **Advanced AI**: Integration with GPT-4o and Claude
-- [ ] 📊 **Analytics Dashboard**: Real-time insights and metrics
-- [ ] 🔐 **Enhanced Security**: End-to-end encryption for calls
-- [ ] 🎨 **Custom Themes**: White-label branding options
-- [ ] 📞 **SMS Integration**: Automated SMS notifications
-- [ ] 🔔 **WhatsApp Bot**: WhatsApp Business API integration
-- [ ] 🎯 **Smart Routing**: AI-powered call routing
-- [ ] 📈 **Predictive Analytics**: Call outcome predictions
-- [ ] 🌐 **Multi-Tenant**: Support for multiple organizations
-- [ ] 🔄 **CRM Integration**: Salesforce, HubSpot connectors
-
-<div align="center">
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-</div>
-
----
-
-<div align="center">
-
-### 💖 Made with Love for the People of India
-
-<img src="https://img.icons8.com/color/96/000000/india.png" width="64" height="64"/>
-
-**LokMitra AI** - *Empowering Citizens Through AI*
-
-<br />
-
-<sub>If you find this project helpful, please consider giving it a ⭐️</sub>
-
-<br />
-
-[![GitHub stars](https://img.shields.io/github/stars/Kartavya728/LokMitra-AI?style=social)](https://github.com/Kartavya728/LokMitra-AI/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/Kartavya728/LokMitra-AI?style=social)](https://github.com/Kartavya728/LokMitra-AI/network/members)
-[![GitHub watchers](https://img.shields.io/github/watchers/Kartavya728/LokMitra-AI?style=social)](https://github.com/Kartavya728/LokMitra-AI/watchers)
-
-<br />
 
 <!-- Animated Footer -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" />

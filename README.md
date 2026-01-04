@@ -8,6 +8,7 @@
   </a>
 </div>
 
+<h3>🛠️ Tech Stack</h3>
 <p align="center">
   <img src="https://img.shields.io/badge/Django-5.1.0-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django" />
   <img src="https://img.shields.io/badge/Next.js-16.1.1-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
@@ -16,9 +17,11 @@
   <img src="https://img.shields.io/badge/VAPI-AI-FF6B6B?style=for-the-badge&logo=ai&logoColor=white" alt="VAPI" />
   <img src="https://img.shields.io/badge/Gemini-2.5-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Gemini" />
 </p>
+
+<hr />
 <!-- Social Links -->
 <!-- Social Links -->
-<h3>🛠️ Tech Stack</h3>
+<h3>🚀 Project Links</h3>
 <p align="center">
   <a href="DEMO_LINK">
     <img src="https://img.shields.io/badge/📹_Video_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Video Demo" />

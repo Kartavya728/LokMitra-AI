@@ -23,7 +23,7 @@
 <!-- Social Links -->
 <h3>🚀 Project Links</h3>
 <p align="center">
-  <a href="DEMO_LINK">
+  <a href="https://youtu.be/OB-zzxz6e8Y?si=DVnbjeScFWHRnNTQ">
     <img src="https://img.shields.io/badge/📹_Video_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Video Demo" />
   </a>
   <a href="https://youtube.com/playlist?list=PLsLuXr7FW3LwKIL9K6SJDIRh2qISQKnsq&si=p_Dra1UWf91P_iyu">

@@ -1,16 +1,13 @@
 <div align="center">
 
-<!-- Animated Header -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=LokMitra%20AI&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=fff" />
 
-<!-- Animated Typing SVG -->
-<p align="center">
+<div style="background-color: #060b14; margin-top: -30px; padding: 40px 0;">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=AI-Powered+Voice+Assistant+for+Citizens;Bridging+Government+Services+with+AI;Empowering+Public+Access+Through+Voice" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=120&lines=AI-Powered+Voice+Assistant+for+Citizens;Bridging+Government+Services+with+AI;Empowering+Public+Access+Through+Voice&background=060B14" alt="Typing SVG" />
   </a>
-</p>
+</div>
 
-<!-- Badges -->
 <p align="center">
   <img src="https://img.shields.io/badge/Django-5.1.0-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django" />
   <img src="https://img.shields.io/badge/Next.js-16.1.1-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
@@ -19,7 +16,6 @@
   <img src="https://img.shields.io/badge/VAPI-AI-FF6B6B?style=for-the-badge&logo=ai&logoColor=white" alt="VAPI" />
   <img src="https://img.shields.io/badge/Gemini-2.5-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Gemini" />
 </p>
-
 <!-- Social Links -->
 <p align="center">
   <a href="#demo-video">

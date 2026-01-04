@@ -18,6 +18,7 @@
 </p>
 <!-- Social Links -->
 <!-- Social Links -->
+<h3>🛠️ Tech Stack</h3>
 <p align="center">
   <a href="DEMO_LINK">
     <img src="https://img.shields.io/badge/📹_Video_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Video Demo" />

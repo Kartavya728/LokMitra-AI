@@ -1,4 +1,0 @@
-https://docs.vapi.ai/quickstart/introduction
-
-https://www.twilio.com/docs
-
